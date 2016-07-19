@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">"Book it to the moon "</string>
+    <string name="username">User\'s First Name:</string>
+    <string name="agegroup1">Ages 0-5</string>
+    <string name="agegroup2" />
+    <string name="agegroup">Ages 5-10</string>
+    <string name="agegroup3">Ages 10-15</string>
+    <string name="finish" />
+    <string name="finish2">Finish</string>
+    <string name="Done">done</string>
+    <string name="Name">Enter Child\'s name</string>
+    <string name="findMoon">Find the Moon</string>
+</resources>

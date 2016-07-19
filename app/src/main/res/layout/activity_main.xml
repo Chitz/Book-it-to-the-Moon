@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.crystal.myapplication.MainActivity"
+    android:background="@drawable/stars">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSun"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/sun"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMercury"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/mercury"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnSun" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVenus"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/venus"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnMercury" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEarth"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/earth"
+        android:layout_below="@+id/btnVenus"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMars"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/mars"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnEarth" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnJupiter"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/jupiter"
+        android:layout_below="@+id/btnMars"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSaturn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/saturn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnJupiter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUranus"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/uranus"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnSaturn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNeptune"
+        android:layout_gravity="center_horizontal"
+        android:onClick="planetListener"
+        android:background="@drawable/neptune"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnUranus" />
+
+</RelativeLayout>

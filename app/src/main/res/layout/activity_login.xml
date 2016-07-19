@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.me.bookittothemoon.login"
+    android:background="@drawable/moon">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/username"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInputName"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/Name"
+        android:inputType="text"
+        android:layout_below="@+id/username"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="true"
+        android:textColor="#fdfdfd" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agegroup1"
+        android:id="@+id/radAgeGroupOne"
+        android:layout_alignParentStart="true"
+        android:padding="15dp"
+        android:textSize="35sp"
+        android:textColor="#1eff00"
+        android:textStyle="bold"
+        android:onClick="ageListener"
+        android:layout_below="@+id/txtInputName" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agegroup"
+        android:id="@+id/radAgeGroupTwo"
+        android:layout_below="@+id/radAgeGroupOne"
+        android:layout_alignParentStart="true"
+        android:textSize="35sp"
+        android:padding="15dp"
+        android:textColor="#0015ff"
+        android:textStyle="bold"
+        android:onClick="ageListener" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agegroup3"
+        android:id="@+id/radAgeGroupThree"
+        android:layout_below="@+id/radAgeGroupTwo"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff0000"
+        android:textSize="35sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:theme="@android:style/MediaButton.Play"
+        android:onClick="ageListener" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Done"
+        android:id="@+id/finish"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:padding="10dp" />
+
+</RelativeLayout>
